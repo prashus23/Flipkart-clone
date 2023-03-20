@@ -1,0 +1,43 @@
+.navbarContainer{
+    grid-area: navbar;
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px 8px;
+    text-align: center;
+    max-width: 100%;
+    min-width: 20%;
+}
+
+.navData{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 240px 10px 240px;
+    justify-content: space-between;
+    /* overflow: hidden; */
+}
+
+.dataText  {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.banner {
+    padding: 10px 10px;
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+/* @media  (min-width: 320px) {
+ .navbarContainer , .navData , .dataText {
+    margin: 0;
+    padding: 0;
+    justify-content:space-between;
+    font-size: 12px;
+ }  
+} */
+
+
+
+

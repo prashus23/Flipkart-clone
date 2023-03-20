@@ -1,0 +1,42 @@
+.logintp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 7px;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+.singup {
+  font-size: 14px;
+  margin-right: 40px;
+  border-style: hidden;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.singup:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.logintp > hr {
+  margin-left: -10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 108.5%;
+  height: 0.5px;
+  background-color: rgb(233, 233, 233);
+  border: none;
+}
+
+.logintp_in {
+  display: flex;
+  align-items: center;
+}
+
+.logintp_in:hover {
+  background-color: rgb(245, 243, 243);
+  cursor: pointer;
+}

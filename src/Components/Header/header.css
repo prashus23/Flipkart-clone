@@ -1,0 +1,51 @@
+.headerContainer{
+    background-color: rgb(40,116,240);
+    position: sticky;
+    top: 0;
+    min-height: 5vh;
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.logoLine {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+.logoLine:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.plus{
+    color:rgb(255,229,0);
+}
+
+.searchbar {
+    background-color: rgb(255, 254, 254);
+    border-radius: 2px;
+    border: none;
+    margin-left: 10px;
+    padding: 5px;
+    width: 38%;
+    align-items: center;
+}
+
+::placeholder {
+    padding-left: 20px;
+    width: 100%;
+    font-size: unset;
+}
+
+/* .search {
+    display: flex;
+    flex-direction: row;
+  } */

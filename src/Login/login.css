@@ -1,0 +1,28 @@
+.login {
+  display: flex;
+  flex-direction: row;
+  margin: 10 3% 0 auto;
+}
+.login__button{
+  font-size: 14px;
+  margin-right: 40px;
+  margin-left: 20px;
+  color: rgb(40, 116, 240);
+  background-color: white;
+  padding: 5px 30px 5px 30px;;
+  border-style: hidden;
+  cursor: pointer;
+}
+.loginButtons {
+  font-size: 14px;
+  margin-right: 40px;
+  background-color: rgb(40, 116, 240);
+  color: white;
+  border-style: hidden;
+  cursor: pointer;
+}
+
+/* .search {
+  display: flex;
+  flex-direction: row;
+} */
