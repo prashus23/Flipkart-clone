@@ -1,5 +1,5 @@
 import "./main.css";
-import Footer from "../Components/Footer";
+// import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import NavBar from "../Components/Navbar";
 import MainHomepage from "./HomePage/mainHomepage";
@@ -16,7 +16,7 @@ function Main() {
           <Route path="/" element={<MainHomepage />} />
           <Route path="/productData/:id" element={<DetailView />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

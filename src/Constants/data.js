@@ -29,6 +29,11 @@ export const productData = [
         title: {
             shortTitle: 'Mobile Covers'
         }, 
+        price: {
+            mrp: 6999,
+            cost: 4049,
+            discount: '42%'
+        },
         discount: 'Extra 10% Off', 
         tagline: 'Deal of the day' 
     },
@@ -38,6 +43,12 @@ export const productData = [
         title: {
             shortTitle: 'Skin & Hair Care'
         },
+        price: {
+            mrp: 599,
+            cost: 249,
+            discount: '52%'
+        },
+        review: '3.6',
         discount: 'From 99+5% Off', 
         tagline: 'Shampoos, Face Washes & More' 
     },
@@ -47,6 +58,12 @@ export const productData = [
         title: {
             shortTitle: 'Skybags & Safari'
         }, 
+        price: {
+            mrp: 1299,
+            cost: 1000,
+            discount: '70%'
+        },
+        review: '4.0',
         discount: 'Upto 70% Off', 
         tagline: 'Deal of the Day' 
     },
@@ -63,6 +80,7 @@ export const productData = [
             cost: 4049,
             discount: '42%'
         },
+        review: '4.6',
         description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
         discount: 'Grab Now', 
         tagline: 'Best Seller' 
@@ -73,6 +91,12 @@ export const productData = [
         title: {
             shortTitle: 'Sports & Fitness Essentials'
         }, 
+        price: {
+            mrp: 1500,
+            cost: 1200,
+            discount: '68%'
+        },
+        review: '4.8',
         discount: 'Upto 80% Off', 
         tagline: 'Ab Exerciser, Yoga & more' 
     }

@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.left-container{
+    margin: 10px;
+    padding-left: 50px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-left: 50px;
+}
