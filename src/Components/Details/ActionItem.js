@@ -3,6 +3,8 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import FlashOnIcon from "@mui/icons-material/FlashOn";
 import "./action.css";
 import { LocalOffer as Badge } from '@mui/icons-material';
+
+import { NavLink, useNavigate } from "react-router-dom";
 // const LeftContainer = styled(Box)`
 //   min-width: 40%;
 //   padding: 40px 0 0 80px;
@@ -69,27 +71,40 @@ const ColumnText = styled(TableRow)`
 // `;
 
 const ActionItem = ({ data }) => {
+
+  const navigate = useNavigate();
+
+  const addItemToCart = () => {
+    navigate('/cart');
+  }
+
   const fassured = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png';
 
   const adURL = 'https://rukminim1.flixcart.com/lockin/774/185/images/CCO__PP_2019-07-14.png?q=50';
     const date = new Date(new Date().getTime()+(5*24*60*60*1000));
     
   console.log(data, ">>");
+
+
   return (
     <div className="main">
+
       <div className="left-container">
         <Image src={data.url} style={{ width: "250px" }} />
         <StyledButton
           style={{ marginRight: 10, background: "#ff9f00" }}
           variant="contained"
         >
-          <ShoppingCartIcon />
+        <NavLink>
+          <ShoppingCartIcon onClick={()=>addItemToCart()} />
           Add to Cart
+        </NavLink>
         </StyledButton>
         <StyledButton style={{ background: "#fb641b" }} variant="contained">
           <FlashOnIcon /> Buy Now
         </StyledButton>
       </div>
+
       <div className="right-container">
         
         <Box item lg={8} md={8} sm={8} xs={12}>

@@ -4,8 +4,11 @@ import Text from "../../Text";
 import CustomButton from "../CustomButton";
 import Login from "../../Login";
 import { BiSearch } from "react-icons/bi";
+import MenuIcon from '@mui/icons-material/Menu';
+import styled from "@mui/material";
 
 import { Link } from "react-router-dom";
+import { IconButton } from "@mui/material";
 
 
 function Header() {
@@ -14,8 +17,19 @@ function Header() {
   const subURL =
     "https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png";
 
+    // const MenuButton = 
+    // styled(IconButton)(({theme}) => ({
+    //   // display:'none',
+    //   // [theme.breakpoint.down('md')]: {
+    //   //   display:'block'
+    //   // }
+    // }));
+
   return (
     <div className="headerContainer">
+    {/* <MenuButton> */}
+      {/* <MenuIcon/> */}
+    {/* </MenuButton> */}
       <Link className="logoLine" to='/'>
         <img src={logoURL} alt="logo" className="logo" style={{ width: 70 ,paddingBottom:0 , paddingTop:"5%"}} />
         <CustomButton
