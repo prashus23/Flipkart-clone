@@ -70,35 +70,40 @@ const ColumnText = styled(TableRow)`
 //   }
 // `;
 
+
+const fassured = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png';
+
+const adURL = 'https://rukminim1.flixcart.com/lockin/774/185/images/CCO__PP_2019-07-14.png?q=50';
+const date = new Date(new Date().getTime()+(5*24*60*60*1000));
+
+// console.log(data, ">>");
+
 const ActionItem = ({ data }) => {
-
+  console.log(data +" yup thats")
   const navigate = useNavigate();
-
+  
   const addItemToCart = () => {
+    console.log(data+" yo yo yo");
+    const array = JSON.parse(localStorage.getItem('addToCartLid'))||[]
+    array.push(data)
+    localStorage.setItem('addToCartLid',JSON.stringify(array))
     navigate('/cart');
   }
-
-  const fassured = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png';
-
-  const adURL = 'https://rukminim1.flixcart.com/lockin/774/185/images/CCO__PP_2019-07-14.png?q=50';
-    const date = new Date(new Date().getTime()+(5*24*60*60*1000));
-    
-  console.log(data, ">>");
 
 
   return (
     <div className="main">
 
       <div className="left-container">
-        <Image src={data.url} style={{ width: "250px" }} />
+        <Image src={data.url} style={{ width: "220px" }} />
         <StyledButton
           style={{ marginRight: 10, background: "#ff9f00" }}
-          variant="contained"
+          variant="contained" onClick={()=>addItemToCart()}
         >
-        <NavLink>
-          <ShoppingCartIcon onClick={()=>addItemToCart()} />
+        {/* <NavLink style={{textDecoration:"none", color:"white"+"!important"}} > */}
+          <ShoppingCartIcon style={{color:"white"}} />
           Add to Cart
-        </NavLink>
+        {/* </NavLink> */}
         </StyledButton>
         <StyledButton style={{ background: "#fb641b" }} variant="contained">
           <FlashOnIcon /> Buy Now

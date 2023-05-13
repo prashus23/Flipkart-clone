@@ -17,7 +17,7 @@ function Main() {
           <Route path="/navbar" element={<NavBar />} />
           <Route path="/" element={<MainHomepage />} />
           <Route path="/productData/:id" element={<DetailView />} />
-          <Route path="/cart/:id" element={<Cart/>}/>
+          <Route path="/cart" element={<Cart/>}/>
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
