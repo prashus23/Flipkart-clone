@@ -19,7 +19,6 @@ function Main() {
           <Route path="/productData/:id" element={<DetailView />} />
           <Route path="/cart" element={<Cart/>}/>
         </Routes>
-        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

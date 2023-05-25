@@ -35,7 +35,8 @@ export const productData = [
             discount: '42%'
         },
         discount: 'Extra 10% Off', 
-        tagline: 'Deal of the day' 
+        tagline: 'Deal of the day',
+        quantity: 0,
     },
     { 
         id: 'product2',
@@ -50,7 +51,8 @@ export const productData = [
         },
         review: '3.6',
         discount: 'From 99+5% Off', 
-        tagline: 'Shampoos, Face Washes & More' 
+        tagline: 'Shampoos, Face Washes & More',
+        quantity: 0,
     },
     { 
         id: 'product3',
@@ -65,7 +67,9 @@ export const productData = [
         },
         review: '4.0',
         discount: 'Upto 70% Off', 
-        tagline: 'Deal of the Day' 
+        tagline: 'Deal of the Day',
+        quantity: 0,
+
     },
     { 
         id: 'product4',
@@ -83,7 +87,9 @@ export const productData = [
         review: '4.6',
         description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
         discount: 'Grab Now', 
-        tagline: 'Best Seller' 
+        tagline: 'Best Seller',
+        quantity: 0,
+
     },
     { 
         id: 'product5',
@@ -98,7 +104,8 @@ export const productData = [
         },
         review: '4.8',
         discount: 'Upto 80% Off', 
-        tagline: 'Ab Exerciser, Yoga & more' 
+        tagline: 'Ab Exerciser, Yoga & more',
+        quantity: 0,
     }
 ];
 
