@@ -25,7 +25,7 @@ const GroupedButton = ({id,updateCartItem}) => {
 
     return (
         <Component>
-            <StyledButton onClick={() => handleDecrement()} disabled={counter == 0}>-</StyledButton>
+            <StyledButton onClick={() => handleDecrement()} disabled={counter === 0}>-</StyledButton>
             <Button disabled>{counter}</Button>
             <StyledButton onClick={() => handleIncrement()}>+</StyledButton>
         </Component>

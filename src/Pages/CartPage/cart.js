@@ -69,15 +69,21 @@ const Cart = () => {
     setListedItems(updatedItems);
   };
   const updateCartItem = (id, increase, decrease) => {
-    let item = listedItems.filter((item) => item.id === id);
-    if(increase){
-        const newProductList = getListedItem();
-        newProductList.push(item.id)//item.quntity++ = itemof = 0. quntity +1;
-        localStorage.setItem("addToCartLid", JSON.stringify(newProductList));
-    }
-    if(decrease){
-        removeItemFromCart(id)
-    }
+    let list = listedItems.forEach((item,index) =>{
+      if(item.id === id){
+        console.log(item);
+        if(!item){
+          return
+        }
+        if(increase){
+          item.quantity = item.quantity + 1;
+        }
+        if(decrease){
+          item.quantity = item.quantity - 1;
+        }
+      }
+    });
+    localStorage.setItem("addToCartLid", JSON.stringify(listedItems));
     setListedItems(getListedItem());
   };
 
@@ -95,6 +101,7 @@ const Cart = () => {
 
           {listedItems.length > 0 ? (
             listedItems.map((item,index) => (
+              item && 
               <CartItem
                 key={item.id+index}
                 item={item}
@@ -112,7 +119,7 @@ const Cart = () => {
         </LeftComponent>
 
         <Grid item lg={3} md={3} sm={12} xs={12}>
-          <TotalView cartItems={listedItems} />
+          <TotalView cartItems={listedItems || []} />
         </Grid>
       </Component>
     </>
