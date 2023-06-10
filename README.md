@@ -1,3 +1,20 @@
+![Screenshot 2023-06-10 114101](https://github.com/prashus23/Flipkart-clone/assets/91913160/e1b5e349-b3b6-4c26-b29f-6e92141db6b9)
+
+![Screenshot 2023-06-10 114119](https://github.com/prashus23/Flipkart-clone/assets/91913160/d31ff719-6ca7-4f4a-a543-203cbb62244f)
+![Screenshot 2023-06-10 114128](https://github.com/prashus23/Flipkart-clone/assets/91913160/cbbd2ea2-b897-4076-b8e6-c2d86c549e4f)
+
+![Screenshot 2023-06-10 114138](https://github.com/prashus23/Flipkart-clone/assets/91913160/c85fd5fb-44c1-4b61-90f3-c35cdcad6b5b)
+
+![Screenshot 2023-06-10 114145](https://github.com/prashus23/Flipkart-clone/assets/91913160/37b84eeb-b891-46d9-91a6-61f3f193e2c5)
+
+![Screenshot 2023-06-10 114152](https://github.com/prashus23/Flipkart-clone/assets/91913160/cb186229-0b2d-4ef2-a132-29fa551c65f1)
+
+![Screenshot 2023-06-10 114202](https://github.com/prashus23/Flipkart-clone/assets/91913160/8a99c69b-1906-4bcb-b2cc-f0e44997b297)
+
+![Screenshot 2023-06-10 114312](https://github.com/prashus23/Flipkart-clone/assets/91913160/ec43758a-12f8-4971-9edb-f64c59c82d0a)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
