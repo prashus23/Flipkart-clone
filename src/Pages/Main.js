@@ -15,7 +15,7 @@ function Main() {
         <Header />
         <Routes>
           <Route path="/navbar" element={<NavBar />} />
-          <Route path="/" element={<MainHomepage />} />
+          <Route path="/" exact element={<MainHomepage />} />
           <Route path="/productData/:id" element={<DetailView />} />
           <Route path="/cart" element={<Cart/>}/>
         </Routes>
